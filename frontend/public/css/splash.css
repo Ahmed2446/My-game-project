@@ -1,0 +1,80 @@
+#splash-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    background: url("../images/main_pic.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #splash-div::-webkit-scrollbar { 
+    width: 0 !important 
+  }
+  
+  /* .splash-img{
+    filter: brightness(0.8);
+     z-index: -20;
+    position: fixed;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    background-size: cover;
+  } */
+  
+  /* #splash-div > footer {
+    background-color: #000;
+    width: 100%;
+    height: 20%;
+    font-family: 'proxima-nova', sans-serif;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+  } */
+  
+  .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      background: rgba(0, 0, 0, .7);
+      position: absolute;
+      margin: 0 auto;
+      clear:left;
+      z-index: 1;
+      text-align:center;
+      width: 25%;
+      height: 55%;
+      font-size: 30px;
+      color: white;
+      vertical-align: middle;
+      border-style: solid;
+      padding: 10px;
+      border-color: transparent;
+      border-radius: 5px;
+      box-shadow: 0px 0px 0px 10px rgba(37, 37, 37, 0.8);
+      margin-top: 10%;
+      /* font-family: Finger Paint;     */
+      /* font-family: Trade Winds; */
+      font-family: Metal Mania;
+      overflow: scroll;
+  }
+  
+  .container::-webkit-scrollbar { 
+    width: 0 !important 
+  }
+  
+  /* .about {
+    display: flex;
+    justify-content: center;
+  
+    text-align: center;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+  } */
