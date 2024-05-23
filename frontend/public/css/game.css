@@ -1,0 +1,224 @@
+#game-page-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+#game-div {
+        background: url("../images/main_pic.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* #game-page-background {
+    position: absolute;
+    z-index: -20;
+    background-color: rgba(0, 0, 0, .9);
+    filter: brightness(0.8);
+    box-sizing: border-box;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+} */
+
+#game-div > h4, h5{
+    text-align: center;
+    color: white;
+    /* font-family: 'Montserrat'; */
+    font-family: Metal Mania;
+    z-index: 1;
+    margin-top: 5%;
+    font-size: x-large;
+}
+
+#game-select-title {
+    text-align: center;
+    color: white;
+    /* font-family: 'Montserrat'; */
+    font-family: Metal Mania;
+    z-index: 1;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    font-size: 36px;
+}
+
+
+.monster-icon-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    height: 70%;
+    width: 70%;
+    margin: auto;
+
+}
+
+.monster-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: black solid 2px; */
+    overflow: hidden;
+    /* height: 40%; */
+    width: 40%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.monster-element:hover {
+    background-color: rgba(99, 0, 0, .7);
+    cursor: pointer;
+    overflow: visible;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.monster-name {
+    font-size: xx-large;
+    font-weight: 900;
+    margin-bottom: 20px;
+    border: 2px white solid;
+}
+
+.not-hovered-icon {
+    height: 75%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: red; */
+}
+
+.hovered-icon {
+    height: 45%;
+    width: 32%;
+    display: block;
+}
+
+
+
+.selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: black solid 2px; */
+    overflow: hidden;
+    /* height: 40%; */
+    width: 40%;
+    box-sizing: border-box;
+    background-color: rgba(99, 0, 0, .8);
+}
+
+.test {
+    border: yellow 5px solid;
+    font-size: xx-large;
+}
+
+/* GameMonsterItem */
+
+.show-stats{
+    display: block;
+    color: white;
+    /* font-family: 'Montserrat'; */
+    font-family: Metal Mania;
+    width: 50%;
+    padding: 0px;
+    margin: 5px;
+}
+
+.hide-stats {
+    display: none;
+    color: white;
+    /* font-family: 'Montserrat'; */
+    font-family: Metal Mania;
+}
+
+.show-moves-right {
+    color: white;
+    /* : 'Montserrat'; */
+    font-family: Metal Mania;
+    background-color: rgba(99, 0, 0, .7);
+    margin-right: -32%;
+    z-index: 2;
+    position: relative;
+    overflow: visible;
+}
+
+.hide-moves {
+    display: none;
+}
+
+.show-moves-left {
+    color: white;
+    /* font-family: 'Montserrat'; */
+    font-family: Metal Mania;
+    background-color: rgba(99, 0, 0, .7);
+    margin-left: -32%;
+    z-index: 2;
+    position: relative;
+    overflow: visible;
+}
+
+.move-list-item {
+    padding: 25px;
+    margin-top: 5px;
+}
+
+.icon-stats {
+    display: flex;
+}
+
+.fight-container {
+    /* background-color: rgba(0, 0, 0, .7);; */
+    background-color: #111;;
+    /* background-position: top;
+    background-size: cover;
+    background-blend-mode: overlay; */
+    color: white;
+    width: 340px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.fight-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fight-title {
+    font-size: 32px;
+    font-family: Metal Mania;
+    text-align: center;
+}
+
+.fight-link {
+    width: 125px;
+    height: 40px;
+    background: #111;
+    border: 3px solid rgb(85, 1, 1);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    /* font-family: Montserrat; */
+    letter-spacing: 1px;
+    font-family: Metal Mania;
+}
+
+.fight-link:hover {
+    background-color: crimson;
+}
+
